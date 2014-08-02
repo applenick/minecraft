@@ -42,5 +42,5 @@ func decodeSkin(r io.Reader) (Skin, error) {
 }
 
 func awsUrl(username string) string {
-	return "http://skins.minotar.net/" + username + ".png"
+	return "http://avatar.applenick.com/" + username + ".png"
 }
